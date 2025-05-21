@@ -1,6 +1,10 @@
 [vlm]
-path = "/home/<user>/llama.cpp/build/bin/llama-mtmd-cli"
-model = "/home/<user>/models/llava-v1.5-7b-Q4_K_M.gguf"
-mmproj = "/home/<user>/models/llava-v1.5-7b-mmproj-model-f16.gguf"
+path = "/home/yevhenii/llama.cpp/build/bin/llama-mtmd-cli"
+model = "/home/yevhenii/models/llava-v1.5-7b-Q4_K_M.gguf"
+mmproj = "/home/yevhenii/models/llava-v1.5-7b-mmproj-model-f16.gguf"
 chat_template = "vicuna"
 ctx_size = 4096
+n_predict = 128
+timeout = 420
+
+context_radius = 15
